@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic);
+
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+}
+
+.pave_catego_titre_visuel { 
+	background:transparent url(Image/Slider/fond_pave_visuel_titre.jpg); 
+	background-position:top center; 
+	background-repeat:repeat-y; 
+	background-size:100% 17px; 
+	box-shadow: 0.5em 0.5em 1em black;
+}
+
+div.texte, .texte_fullpage {
+	font-family:'Istok Web', sans-serif;
+	font-weight:400;
+	white-space:normal;
+	color:white;
+	line-height:1.25;
+	
+}
+div.texte_fullpage {
+	
+}
+div.texte {
+	border-radius:0px 0px 15% 0px; 
+	box-shadow: 0.5em 0.5em 1em black;
+}
+div.titre p {
+	max-width:95%; 
+	min-width:20%;
+	width:auto; 
+	padding:3% 5% 2% 10%; 
+	margin:0px;
+}
+div.titre p, div.categorie {
+	font-family:'Istok Web', sans-serif;
+	font-weight:400;
+	white-space:normal;
+	color:white;
+	
+	font-size:30px; 
+	font-size:1.875em; 
+	
+	font-variant:small-caps;
+	
+	line-height:1.25;
+	
+}
+div.categorie {
+	background:transparent url(Image/Slider/fond_pave_categorie.jpg); 
+	background-position:top center; 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+}
+div.categorie .firstletter {
+	color:red;	
+}
+div.texte h2, .texte ul, .texte ul li, .texte p, .texte_fullpage h2, .texte_fullpage ul, .texte_fullpage ul li, .texte_fullpage p {
+	margin:0;
+	padding:0;
+}
+div.texte ul li, .texte_fullpage ul li {
+	padding:0 0 5% 0;
+}
+div.texte h1, .texte_fullpage h1 {
+	font-weight:700;
+	margin-bottom:5%;
+	font-size:90px; 
+	font-size:6em;				
+	line-height:1.05;
+	padding:3% 0 3% 0;
+	margin:0;
+}
+div.texte h2, .texte_fullpage h2 {
+	font-weight:700;
+	margin-bottom:5%;
+	font-size:60px; 
+	font-size:4em;				
+	line-height:1.05;
+
+}
+div.texte h3, .texte_fullpage h3 {
+	font-weight:700;
+	margin-bottom:5%;
+	font-size:40px; 
+	font-size:3em;				
+	line-height:1.05;
+
+}
+div.texte ul, .texte p, .texte_fullpage ul, .texte_fullpage p {
+	list-style:outside;
+	font-size:40px; 
+	font-size:2.8em;
+	line-height:1.2;
+}
+div.texte ul, .texte p {
+	padding:0 0 0 5%;
+}
+div.texte .texte_mini, .texte_fullpage .texte_mini {
+	font-size:1.5em;
+}
+div.texte ul.li_with_inimgs li {
+	list-style:none;
+	display:block;
+	clear:both;
+}
+div.texte ul.li_with_inimgs li img {
+	display:block;
+	float:left;
+	margin:0 6% 2% 0;
+	width:10%; 
+	height:auto;
+}
+div.texte ul.li_with_inimgs li span {
+	display:block;
+	max-width:82%;
+	float:left;
+	margin:0 0 2% 0;
+}
+div.texte p {
+	padding:0 0 0 0;
+}
+div.black {
+	color:black;	
+}
+div.white {
+	color:white;	
+}
+div.texte .asterisque {
+	font-size:2em; 
+	font-style:italic; 
+	padding-top:5%;
+} 
+div.texte .asterisque1 {
+	font-size:1em; 
+	font-style:italic; 
+	padding-top:5%;
+} 
+div.texte .asterisque2 {
+	font-size:1.5em; 
+	font-style:italic; 
+	padding-top:5%;
+} 
+div.texte_75pcent {
+	font-size:75%;
+}
+div.texte_65pcent {
+	font-size:65%;
+}
+div.texte_50pcent {
+	font-size:50%;
+}
+div.beige .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_beige.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.beige .texte {
+background:#c8c0ba url(Image/Slider/pavetexte_degrad_beige.jpg); background-position:top right; background-repeat:repeat-y; 
+}
+div.rouge .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_rouge.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.rouge .texte {
+background:#ed1c24 url(Image/Slider/pavetexte_degrad_rouge.jpg); background-position:top right; background-repeat:repeat-y; 
+}
+div.orange .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_orange.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.orange .texte {
+background:#f7901e url(Image/Slider/pavetexte_degrad_orange.jpg); background-position:top right; background-repeat:repeat-y; 
+}
+div.bleu .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_bleu.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.bleu .texte {
+background:transparent url(Image/Slider/pavetexte_degrad_bleu.png); background-position:top right; background-repeat:repeat-y; background-size:100% 10px; 
+}
+div.rose .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_rose.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.rose .texte {
+background:transparent url(Image/Slider/pavetexte_degrad_rose.png); background-position:top right; background-repeat:repeat-y; background-size:100% 10px; 
+}
+div.vert .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_vert.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.vert .texte {
+background:transparent url(Image/Slider/pavetexte_degrad_vert.png); background-position:top right; background-repeat:repeat-y; background-size:100% 10px; 
+}
+div.violet .titre {
+float:right; background:transparent url(Image/Slider/fond_pave_titre_violet.png); background-position:top left; background-repeat:no-repeat; background-size:cover;
+}
+div.violet .texte {
+background:transparent url(Image/Slider/pavetexte_degrad_violet.png); background-position:top right; background-repeat:repeat-y; background-size:100% 10px; 
+}

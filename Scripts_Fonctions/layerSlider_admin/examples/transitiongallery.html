@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>liste des transitions 2D et 3D</title>
+
+	<link rel="stylesheet" href="../../LayerSlider-4.6.1-standalone/layerslider/css/layerslider.css" type="text/css">
+	<link rel="stylesheet" href="../../layerSlider_admin/assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="../../LayerSlider-4.6.1-standalone/assets/css/layerslider.transitiongallery.css">
+
+
+	<script src="../../LayerSlider-4.6.1-standalone/layerslider/jQuery/jquery.js" type="text/javascript"></script>
+	<script src="../../LayerSlider-4.6.1-standalone/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+	<script src="../../LayerSlider-4.6.1-standalone/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
+	<script src="../../LayerSlider-4.6.1-standalone/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+	<script src="../../LayerSlider-4.6.1-standalone/assets/js/layerslider.transitiongallery.js"></script>
+
+    
+    
+    <script language="javascript" type="text/javascript">
+
+	a_nav_set = false;
+
+function is_anchor()
+{
+	if (a_nav_set == false)
+	{
+
+		var a3D = '<a name="3D_transitions" id="3D_oTotrans" style="position:absolute; display:block; z-index:2; margin-top:-100px;"></a>';
+		var a2D = '<a name="2D_transitions" id="2D_oTotrans" style="position:absolute; display:block; z-index:2; margin-top:-100px;"></a>';
+		
+		var compatibility_a = ' - <input type="button" onclick="document.location.href=\'#\';" value="haut de page"/> - <input type="button" onclick="document.location.href=\'#compatible_navigators\';" value="compatibilit&eacute; des navigateurs" />';
+		
+		var divnav2D  = a2D+'<div class="nav_links"><input type="button" onclick="document.location.href=\'#3D_transitions\';" value="voir les transitions 3D"/>'+compatibility_a+'</div>';
+		var divnav3D  = a3D+'<div class="nav_links"><input type="button" onclick="document.location.href=\'#2D_transitions\';" value="voir les transitions 2D"/>'+compatibility_a+'</div>';
+		
+		$('#ls-transition-gallery .2d th')[0].id = 'divnav2D';
+		$('#ls-transition-gallery .3d th')[0].id = 'divnav3D';
+		
+		$('#divnav2D').append(divnav2D);
+		$('#divnav3D').append(divnav3D);
+		
+		a_nav_set = true;
+	}
+	
+}
+	
+	</script>
+    
+    <style>
+a.close	{
+}
+	</style>
+</head>
+<body class="normal" onload="is_anchor()">
+	<div id="dim">
+
+		<div class="page">
+			<div class="bg"></div>
+			<div class="inner">
+
+<a href="javascript:self.close();" class="close"><img src="../img/close.png"></a>
+
+				<h1>
+<a href="#2D_transitions" onclick="javascript:is_anchor();">Choisir les transitions 2D</a>
+- <a href="#3D_transitions" onclick="javascript:is_anchor();">les transitions 3D</a>
+                </h1>
+<h2 class="description">Placez votre souris sur les noms des transitions pour voir leurs effets.
+
+</h2>
+<br>
+<h4 class="explain">Indiquez les transitions voulues dans les propriétés <strong>transition2d</strong> et <strong>transition3d</strong></h4>
+
+<p class="explain">- soit par <strong>leurs numéros séparés par des virgules</strong>, <br>
+- soit par le mot-cl&eacute; <strong>all</strong> si vous souhaitez que le slider choisisse les transitions au hasard.
+</p>
+				
+				<div id="wrapper">
+					<table id="ls-transition-gallery"></table>
+				</div>
+
+
+
+                <p><a name="compatible_navigators"></a> Veuillez noter que seuls les navigateurs internet récents sont compatibles avec les transitions 3D css3. Vous pouvez utiliser les transitions 3D avec les dernières versions de Internet Exlorer, Chrome (sauf sur Windows XP), Firefox, Safari, bientôt avec Opera, et bien sûr avec les navigateurs mobile compatibles. Pour tous les autres navigateurs, le Slider utilisera automatiquement les transitions 2D (choisies ou, à défaut, au hasard).
+                </p>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

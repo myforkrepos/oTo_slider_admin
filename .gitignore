@@ -1,0 +1,8 @@
+tmp/*
+Admin/*
+Reglages/confweb.ino
+Reglages/confLoc.ino
+Reglages/BaDPrefs.php
+!empty
+*dwsync.xml
+*.DS_Store
